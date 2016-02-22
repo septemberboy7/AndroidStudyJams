@@ -15,9 +15,18 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".Homework1" />
-        <activity android:name=".Homework2" />
-        <activity android:name=".ValentineCard"></activity>
+        <activity
+            android:name=".Homework1"
+            android:label="Homework 1"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".Homework2"
+            android:label="Homework 2"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".ValentineCard"
+            android:label="Happy Valentine's Day"
+            android:parentActivityName=".MainActivity" />
     </application>
 
 </manifest>
